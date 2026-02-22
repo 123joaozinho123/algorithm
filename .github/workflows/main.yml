@@ -1,0 +1,15 @@
+name: CI Test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run test
+        run: |
+          echo "Running tests..."
+          echo "token: kbnzqbqvpikbn{k4z3nctt_e1bp_bp3_t0oa}"
